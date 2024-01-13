@@ -22,7 +22,7 @@ Enterprise N: DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
 
 ### Step 3 - Set KMS machine address
 ```bash
-slmgr /skms kms_server
+slmgr /skms 192.168.0.11
 ```
 Replace `kms_server` with the real KMS server address (by online search). For now, the working KMS server is `kms9.msguides.com`.
 
