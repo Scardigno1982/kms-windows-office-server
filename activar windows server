@@ -64,7 +64,7 @@ Windows Server 2016 Essentials: JCKRF-N37P4-C2D82-9YXRT-4M63B
 
 ### Step 4 - Set KMS machine address
 ```bash
-slmgr /skms kms_server
+slmgr /skms 192.168.54.13
 ```
 Replace `kms_server` with the real KMS server address (by online search). For now, the working KMS server is `kms9.msguides.com`.
 
